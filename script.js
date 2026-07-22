@@ -25,6 +25,20 @@
   const langBtn = $('#lang');
   if (langBtn) langBtn.addEventListener('click', () => setLang(root.lang === 'ar' ? 'en' : 'ar'));
 
+  /* ── newsletter (demo only: nothing is stored or sent) ── */
+  const news = $('#news'), newsMsg = $('#newsMsg'), newsEmail = $('#newsEmail');
+  if (news) {
+    news.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const ok = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test((newsEmail.value || '').trim());
+      const ar = root.lang === 'ar';
+      newsMsg.textContent = ok
+        ? (ar ? 'شكراً لك، سنبقيك على اطلاع.' : 'Thank you, we will keep you posted.')
+        : (ar ? 'يرجى إدخال بريد إلكتروني صحيح.' : 'Please enter a valid email address.');
+      if (ok) newsEmail.value = '';
+    });
+  }
+
   /* ── nav ── */
   const nav = $('#nav'), burger = $('#burger');
   const onScroll = () => nav.classList.toggle('is-stuck', scrollY > 8);
