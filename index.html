@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brooj Cafe · بروج كافيه · Specialty Coffee, Kuwait</title>
+<meta name="description" content="Brooj Cafe, specialty coffee in Kuwait since 2018. Al Bustan Mall, Salmiya and Al Nakhla Mall, Sulaibikhat. Open daily 7am to 11pm. Order on Talabat and Keeta.">
+<meta name="theme-color" content="#F8F5F0">
+<meta property="og:title" content="Brooj Cafe · Specialty Coffee, Kuwait">
+<meta property="og:description" content="Specialty coffee, a fresh kitchen and a calm corner. Since 2018, in Al Bustan and Al Nakhla.">
+<meta property="og:image" content="assets/latte.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Outfit:wght@300;400;500;600&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+<!-- ═══ nav ═══ -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__brand">
+    <img src="assets/logo.jpg" alt="Brooj Cafe">
+    <span class="nav__name" data-en="Brooj" data-ar="بروج">Brooj</span>
+  </a>
+
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#story" data-en="Story" data-ar="حكايتنا">Story</a>
+    <a href="#coffee" data-en="Coffee" data-ar="القهوة">Coffee</a>
+    <a href="#kitchen" data-en="Kitchen" data-ar="المطبخ">Kitchen</a>
+    <a href="#space" data-en="The Space" data-ar="المكان">The Space</a>
+    <a href="#visit" data-en="Visit" data-ar="زورنا">Visit</a>
+  </nav>
+
+  <div class="nav__end">
+    <button class="lang" id="lang" type="button" aria-label="Switch language">
+      <span class="lang__en">EN</span><span class="lang__sep"></span><span class="lang__ar">ع</span>
+    </button>
+    <a href="https://www.talabat.com/kuwait/brooj-cafe" target="_blank" rel="noopener" class="nav__cta" data-en="Order" data-ar="اطلب">Order</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+
+  <nav class="drawer" id="drawer" aria-label="Mobile">
+    <a href="#story" data-en="Story" data-ar="حكايتنا">Story</a>
+    <a href="#coffee" data-en="Coffee" data-ar="القهوة">Coffee</a>
+    <a href="#kitchen" data-en="Kitchen" data-ar="المطبخ">Kitchen</a>
+    <a href="#space" data-en="The Space" data-ar="المكان">The Space</a>
+    <a href="#visit" data-en="Visit" data-ar="زورنا">Visit</a>
+    <a href="https://www.talabat.com/kuwait/brooj-cafe" target="_blank" rel="noopener" class="drawer__cta" data-en="Order on Talabat" data-ar="اطلب عبر طلبات">Order on Talabat</a>
+  </nav>
+</header>
+
+<!-- ═══ hero ═══ -->
+<section class="hero">
+  <div class="hero__copy">
+    <p class="eyebrow fade" data-en="Specialty Coffee &middot; Kuwait &middot; Since 2018" data-ar="قهوة مختصة &middot; الكويت &middot; منذ ٢٠١٨">Specialty Coffee · Kuwait · Since 2018</p>
+    <h1 class="hero__h1">
+      <span class="ln"><em class="fade" style="--d:.12s" data-en="Where the day" data-ar="حيث يتمهّل">Where the day</em></span>
+      <span class="ln"><em class="fade gold" style="--d:.22s" data-en="slows down." data-ar="النهار.">slows down.</em></span>
+    </h1>
+    <p class="hero__sub fade" style="--d:.34s" data-en="Specialty coffee, a fresh kitchen and a quiet corner, in Al Bustan and Al Nakhla. Open every day, 7am until 11pm." data-ar="قهوة مختصة، ومطبخ طازج، وركن هادئ، في البستان والنخلة. نفتح يومياً من ٧ صباحاً حتى ١١ مساءً.">Specialty coffee, a fresh kitchen and a quiet corner, in Al Bustan and Al Nakhla. Open every day, 7am until 11pm.</p>
+    <div class="hero__cta fade" style="--d:.44s">
+      <a href="https://www.talabat.com/kuwait/brooj-cafe" target="_blank" rel="noopener" class="btn btn--solid" data-en="Order on Talabat" data-ar="اطلب عبر طلبات">Order on Talabat</a>
+      <a href="#coffee" class="btn btn--quiet" data-en="See the coffee" data-ar="تصفّح القهوة">See the coffee</a>
+    </div>
+  </div>
+
+  <div class="hero__art veil">
+    <figure class="frame frame--tall">
+      <video src="assets/hero.mp4" poster="assets/hero-poster.jpg" muted loop playsinline preload="metadata" aria-label="An iced Brooj Cafe latte on a wooden table"></video>
+    </figure>
+    <p class="hero__note fade" style="--d:.6s" data-en="Made slowly, every morning" data-ar="تُحضّر على مهل، كل صباح">Made slowly, every morning</p>
+  </div>
+</section>
+
+<!-- ═══ quiet info bar ═══ -->
+<div class="bar">
+  <div class="bar__in">
+    <span data-en="Al Bustan Mall, Salmiya" data-ar="مجمع البستان، السالمية">Al Bustan Mall, Salmiya</span>
+    <i aria-hidden="true"></i>
+    <span data-en="Al Nakhla Mall, Sulaibikhat" data-ar="مجمع النخلة، الصليبخات">Al Nakhla Mall, Sulaibikhat</span>
+    <i aria-hidden="true"></i>
+    <span data-en="7:00 am — 11:00 pm" data-ar="٧:٠٠ ص — ١١:٠٠ م">7:00 am — 11:00 pm</span>
+  </div>
+</div>
+
+<!-- ═══ story ═══ -->
+<section class="split" id="story">
+  <figure class="split__img veil">
+    <div class="frame"><img src="assets/storefront.jpg" alt="The Brooj Cafe storefront sign" loading="lazy"></div>
+  </figure>
+  <div class="split__copy">
+    <p class="eyebrow fade" data-en="Our Story" data-ar="حكايتنا">Our Story</p>
+    <h2 class="fade" style="--d:.08s" data-en="Seven years of one good cup." data-ar="سبع سنوات وفنجان واحد يستحق.">Seven years of one good cup.</h2>
+    <span class="rule" aria-hidden="true"></span>
+    <p class="fade" style="--d:.16s" data-en="Brooj began in 2018 with a simple idea: make coffee properly, and give people a calm place to drink it. No rush, no noise, just carefully sourced beans and a room that lets you breathe." data-ar="بدأت بروج عام ٢٠١٨ بفكرة بسيطة: أن نصنع القهوة كما ينبغي، وأن نمنح الناس مكاناً هادئاً لاحتسائها. بلا عجلة ولا ضجيج، فقط بنّ منتقى بعناية ومكان يتيح لك أن تتنفّس.">Brooj began in 2018 with a simple idea: make coffee properly, and give people a calm place to drink it. No rush, no noise, just carefully sourced beans and a room that lets you breathe.</p>
+    <div class="figs">
+      <div class="fig fade" style="--d:.24s"><b>2018</b><small data-en="Since" data-ar="منذ">Since</small></div>
+      <div class="fig fade" style="--d:.3s"><b>2</b><small data-en="Branches" data-ar="فرعان">Branches</small></div>
+      <div class="fig fade" style="--d:.36s"><b>16h</b><small data-en="Open daily" data-ar="يومياً">Open daily</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ coffee ═══ -->
+<section class="section" id="coffee">
+  <header class="shead">
+    <p class="eyebrow fade" data-en="The Coffee" data-ar="القهوة">The Coffee</p>
+    <h2 class="fade" style="--d:.08s" data-en="Poured with patience." data-ar="تُسكب بتأنٍّ.">Poured with patience.</h2>
+    <span class="rule" aria-hidden="true"></span>
+  </header>
+
+  <div class="gal">
+    <figure class="card veil">
+      <div class="frame"><img src="assets/latte.jpg" alt="Latte art in a ceramic cup on a wooden table" loading="lazy"></div>
+      <figcaption>
+        <h3 data-en="Flat White" data-ar="فلات وايت">Flat White</h3>
+        <p data-en="Steamed slowly, poured by hand." data-ar="حليب مبخّر بهدوء، ويُسكب باليد.">Steamed slowly, poured by hand.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="card card--drop veil" style="--d:.1s">
+      <div class="frame"><img src="assets/pourover.jpg" alt="Filter coffee being poured into a Brooj cup" loading="lazy"></div>
+      <figcaption>
+        <h3 data-en="Filter Coffee" data-ar="قهوة الفلتر">Filter Coffee</h3>
+        <p data-en="Single origin, brewed to order." data-ar="أصل واحد، تُحضّر عند الطلب.">Single origin, brewed to order.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="card veil" style="--d:.2s">
+      <div class="frame"><img src="assets/coldbrew.jpg" alt="Cold brew poured over ice" loading="lazy"></div>
+      <figcaption>
+        <h3 data-en="Cold Brew" data-ar="كولد برو">Cold Brew</h3>
+        <p data-en="Steeped overnight, served over ice." data-ar="منقوعة طوال الليل، وتُقدّم مثلجة.">Steeped overnight, served over ice.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="card card--drop veil" style="--d:.3s">
+      <div class="frame"><img src="assets/juice.jpg" alt="A bottle of fresh juice with the Brooj label" loading="lazy"></div>
+      <figcaption>
+        <h3 data-en="Fresh Juice" data-ar="عصير طازج">Fresh Juice</h3>
+        <p data-en="Pressed daily, bottled in house." data-ar="يُعصر يومياً، ويُعبّأ لدينا.">Pressed daily, bottled in house.</p>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ═══ kitchen ═══ -->
+<section class="section section--tint" id="kitchen">
+  <header class="shead">
+    <p class="eyebrow fade" data-en="The Kitchen" data-ar="المطبخ">The Kitchen</p>
+    <h2 class="fade" style="--d:.08s" data-en="Something to sit with." data-ar="ما يليق بالجلسة.">Something to sit with.</h2>
+    <span class="rule" aria-hidden="true"></span>
+  </header>
+
+  <div class="trio">
+    <figure class="card veil">
+      <div class="frame"><img src="assets/tiramisu.jpg" alt="A slice of tiramisu dusted with cocoa" loading="lazy"></div>
+      <figcaption><h3 data-en="Tiramisu" data-ar="تيراميسو">Tiramisu</h3></figcaption>
+    </figure>
+    <figure class="card veil" style="--d:.1s">
+      <div class="frame"><img src="assets/cheesecake.jpg" alt="A slice of blueberry cheesecake being plated" loading="lazy"></div>
+      <figcaption><h3 data-en="Blueberry Cheesecake" data-ar="تشيز كيك التوت">Blueberry Cheesecake</h3></figcaption>
+    </figure>
+    <figure class="card veil" style="--d:.2s">
+      <div class="frame"><img src="assets/salad.jpg" alt="A Caesar salad bowl with grilled chicken" loading="lazy"></div>
+      <figcaption><h3 data-en="Caesar Salad" data-ar="سلطة سيزر">Caesar Salad</h3></figcaption>
+    </figure>
+  </div>
+
+  <!-- signatures -->
+  <div class="menu">
+    <p class="menu__lead fade" data-en="Most ordered" data-ar="الأكثر طلباً">Most ordered</p>
+    <ul class="menu__list">
+      <li class="mrow fade">
+        <span class="mrow__cat" data-en="Speciality Coffee" data-ar="قهوة مختصة">Speciality Coffee</span>
+        <span class="mrow__name" data-en="White Mocha Latte" data-ar="وايت موكا لاتيه">White Mocha Latte</span>
+      </li>
+      <li class="mrow fade" style="--d:.07s">
+        <span class="mrow__cat" data-en="Sandwiches" data-ar="ساندويتشات">Sandwiches</span>
+        <span class="mrow__name" data-en="Grilled Chicken Sandwich" data-ar="ساندويتش دجاج مشوي">Grilled Chicken Sandwich</span>
+      </li>
+      <li class="mrow fade" style="--d:.14s">
+        <span class="mrow__cat" data-en="Sandwiches" data-ar="ساندويتشات">Sandwiches</span>
+        <span class="mrow__name" data-en="Turkey Croissant" data-ar="كرواسون ديك رومي">Turkey Croissant</span>
+      </li>
+      <li class="mrow fade" style="--d:.21s">
+        <span class="mrow__cat" data-en="Sweets &amp; Desserts" data-ar="حلويات">Sweets &amp; Desserts</span>
+        <span class="mrow__name" data-en="Saffron Cake" data-ar="كيكة الزعفران">Saffron Cake</span>
+      </li>
+    </ul>
+    <a href="https://www.talabat.com/kuwait/brooj-cafe" target="_blank" rel="noopener" class="btn btn--quiet fade" data-en="See the full menu" data-ar="اطّلع على القائمة كاملة">See the full menu</a>
+  </div>
+</section>
+
+<!-- ═══ the space ═══ -->
+<section class="split split--rev" id="space">
+  <figure class="split__img veil">
+    <div class="frame frame--tall">
+      <video data-src="assets/space.mp4" poster="assets/space-poster.jpg" muted loop playsinline preload="none" aria-label="Inside Brooj Cafe at Al Bustan Mall"></video>
+    </div>
+  </figure>
+  <div class="split__copy">
+    <p class="eyebrow fade" data-en="The Space" data-ar="المكان">The Space</p>
+    <h2 class="fade" style="--d:.08s" data-en="A quiet corner of the mall." data-ar="ركن هادئ داخل المجمع.">A quiet corner of the mall.</h2>
+    <span class="rule" aria-hidden="true"></span>
+    <p class="fade" style="--d:.16s" data-en="Warm wood, soft light and enough room to actually think. Come for a slow morning, a long meeting, or somewhere to sit while the city keeps moving." data-ar="خشب دافئ وإضاءة هادئة ومساحة تكفي للتفكير. تعال لصباح متمهّل، أو اجتماع طويل، أو لمكان تجلس فيه بينما تواصل المدينة حركتها.">Warm wood, soft light and enough room to actually think. Come for a slow morning, a long meeting, or somewhere to sit while the city keeps moving.</p>
+    <figure class="split__inset veil" style="--d:.24s">
+      <div class="frame"><img src="assets/interior.jpg" alt="Seating and greenery inside Brooj Cafe" loading="lazy"></div>
+    </figure>
+  </div>
+</section>
+
+<!-- ═══ order ═══ -->
+<section class="order">
+  <div class="order__in">
+    <p class="eyebrow eyebrow--light fade" data-en="Order" data-ar="اطلب">Order</p>
+    <h2 class="fade" style="--d:.08s" data-en="Bring Brooj to you." data-ar="بروج تصلك أينما كنت.">Bring Brooj to you.</h2>
+    <p class="order__sub fade" style="--d:.16s" data-en="Delivery across Kuwait through Talabat and Keeta, or find us on Snapchat for what is new." data-ar="توصيل في جميع أنحاء الكويت عبر طلبات وكيتا، أو تابعنا على سناب شات لكل جديد.">Delivery across Kuwait through Talabat and Keeta, or find us on Snapchat for what is new.</p>
+    <div class="order__row fade" style="--d:.24s">
+      <a href="https://www.talabat.com/kuwait/brooj-cafe" target="_blank" rel="noopener" class="btn btn--light" data-en="Order on Talabat" data-ar="اطلب عبر طلبات">Order on Talabat</a>
+      <a href="https://www.keeta.com" target="_blank" rel="noopener" class="btn btn--outline-light" data-en="Order on Keeta" data-ar="اطلب عبر كيتا">Order on Keeta</a>
+      <a href="https://www.instagram.com/brooj.cafe" target="_blank" rel="noopener" class="btn btn--outline-light" data-en="Instagram" data-ar="إنستغرام">Instagram</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ visit ═══ -->
+<section class="section" id="visit">
+  <header class="shead shead--mid">
+    <p class="eyebrow fade" data-en="Visit" data-ar="زورنا">Visit</p>
+    <h2 class="fade" style="--d:.08s" data-en="Two doors, same cup." data-ar="بابان، والفنجان ذاته.">Two doors, same cup.</h2>
+    <span class="rule rule--mid" aria-hidden="true"></span>
+  </header>
+
+  <div class="places">
+    <article class="place fade">
+      <h3 data-en="Al Bustan" data-ar="البستان">Al Bustan</h3>
+      <p data-en="Al Bustan Mall, Salmiya, Kuwait" data-ar="مجمع البستان، السالمية، الكويت">Al Bustan Mall, Salmiya, Kuwait</p>
+      <p class="place__hrs" data-en="Daily &middot; 7:00 am — 11:00 pm" data-ar="يومياً &middot; ٧:٠٠ ص — ١١:٠٠ م">Daily · 7:00 am — 11:00 pm</p>
+      <a href="https://maps.app.goo.gl/BunNTqXF6vBrpkNg6" target="_blank" rel="noopener" class="tlink" data-en="Open in Maps" data-ar="افتح في الخرائط">Open in Maps</a>
+    </article>
+    <article class="place fade" style="--d:.1s">
+      <h3 data-en="Al Nakhla" data-ar="النخلة">Al Nakhla</h3>
+      <p data-en="Al Nakhla Mall, Sulaibikhat, Kuwait" data-ar="مجمع النخلة، الصليبخات، الكويت">Al Nakhla Mall, Sulaibikhat, Kuwait</p>
+      <p class="place__hrs" data-en="Daily &middot; 7:00 am — 11:00 pm" data-ar="يومياً &middot; ٧:٠٠ ص — ١١:٠٠ م">Daily · 7:00 am — 11:00 pm</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=Al+Nakhla+Mall+Sulaibikhat+Kuwait+Brooj+Cafe" target="_blank" rel="noopener" class="tlink" data-en="Open in Maps" data-ar="افتح في الخرائط">Open in Maps</a>
+    </article>
+  </div>
+</section>
+
+<footer class="footer">
+  <a href="#top" class="footer__brand"><img src="assets/logo.jpg" alt="Brooj Cafe"><span data-en="Brooj Cafe" data-ar="بروج كافيه">Brooj Cafe</span></a>
+  <p class="footer__tag" data-en="Specialty coffee in Kuwait, since 2018." data-ar="قهوة مختصة في الكويت، منذ ٢٠١٨.">Specialty coffee in Kuwait, since 2018.</p>
+  <div class="footer__links">
+    <a href="#coffee" data-en="Coffee" data-ar="القهوة">Coffee</a>
+    <a href="#kitchen" data-en="Kitchen" data-ar="المطبخ">Kitchen</a>
+    <a href="#visit" data-en="Visit" data-ar="زورنا">Visit</a>
+    <a href="https://www.instagram.com/brooj.cafe" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://www.talabat.com/kuwait/brooj-cafe" target="_blank" rel="noopener">Talabat</a>
+  </div>
+  <p class="footer__base">&copy; <span id="year"></span> Brooj Cafe &middot; <span data-en="Website concept by" data-ar="تصميم الموقع من">Website concept by</span> <a href="https://www.tiktok.com/@daniel_webdeveloper" target="_blank" rel="noopener">Daniel</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
